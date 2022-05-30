@@ -1,0 +1,136 @@
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    height: 100%;
+    width: 100%;
+    max-height: 370px;
+
+    background-color: #323969;
+}
+
+.info--title {
+    margin-top: 50px;
+
+    /* font-size: 13px; */
+    /* font-family: 'Exo2'; */
+    font-weight: 500;
+    color: #ff6d6d;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.info--subtitle {
+    margin-bottom: 80px;
+
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.info--box {
+  
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 100%;
+    max-width: 999px;
+
+
+}
+
+.info--input {
+    width: 100%;
+    height: 40px;
+    max-width: 220px;
+    
+   
+
+    margin-right: 40px;
+    border-radius: 5px;
+    border: 0px;
+    border-style: solid;
+    border-color: #a8aabc;
+    border-width: 1px;
+
+    font-size: 13px;
+    background-color: rgb(70, 76, 119);
+    text-transform: uppercase;
+    color: rgb(240, 240, 240);
+    text-align: center;
+
+    
+
+}
+
+
+.info--input:focus {
+    outline: none;
+}
+
+.info--input::placeholder {
+    padding: 15px;
+
+    text-align: start;
+    color: rgb(240, 240, 240);
+}
+
+.info-trial {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    max-width: 220px;
+    max-height: 42px;
+    margin-right: 36px;
+}
+
+.info-trial--image {
+    position: absolute;
+    bottom: 105%;
+    left: 0%;
+}
+
+.info-trial--description {
+    position: absolute;
+    bottom: 170%;
+    left: 15%;
+    font-family: 'Exo2';
+    font-size: 14px;
+    color: rgb(240, 240, 240);
+}
+
+.info--button {
+    width: 100%;
+    height: 100%;
+
+    border-radius: 3px;
+    border-width: 0;
+
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 109, 109);
+}
+
+.info--terms {
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    color: rgb(132, 132, 132);
+    font-size: 15px;
+    font-weight: 500;
+    padding-top: 20px;
+    padding-bottom: 95px;
+}
+
+.terms--link:link {
+    color: rgb(132, 132, 132);
+}
+
+.terms--link:visited {
+    color: rgb(132, 132, 132);
+}

@@ -1,0 +1,116 @@
+.ndesign {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    background-position: left;
+    max-height: 750px;
+    padding: 0 0;
+    padding-left: 0;
+    padding-right: 0;
+    color: #848484;
+
+}
+
+.ndesign--content {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* text-align: left; */
+    width: 60%;
+    padding: 50px;
+    /* padding-left: 213px;
+    padding-right: 200px; */
+    /* font-size: 20px; */
+
+}
+
+.ndesign--color-header {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+    color: #ff6d6d;
+
+}
+
+.ndesign--black-header {
+
+    padding-top: 0%;
+    color: black;
+
+}
+
+.ndesign--dot {
+
+    color: #ff6d6d;
+
+}
+
+.ndesign--description1 {
+
+    letter-spacing: 2px;
+    margin-top: 30px;
+
+}
+
+.ndesign--description2 {
+
+    letter-spacing: 2px;
+    margin-top: 30px;
+
+
+}
+
+.ndesign-image {
+    width: 40%;
+    position: relative;
+    background-repeat: no-repeat;
+   
+ 
+
+
+}
+
+.ndesign-noutbook {
+    position: absolute;
+    top: 23%;
+    left: 15%;
+    width: 100%;
+
+
+
+
+}
+
+.ndesign-image1 {
+
+    background-size: 100% 100%;
+   
+}
+
+@media (max-width: 1000px) {
+
+  .ndesign-image {
+
+    display: none;
+    
+  }
+    
+
+    .ndesign--content {
+
+    
+        width: 100%;
+        height: 100%;
+        background-image: url('../img/bg/bgintro.jpg');
+        background-size: 100% 100%;
+
+
+
+    }
+
+   
+
+
+}
